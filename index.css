@@ -14,7 +14,6 @@ body {
 
 .mainContainer{
     display: flex;
-    height: 485px;
     width: 650px;
     border-radius: 30px;
     box-shadow: 20px 20px 50px 10px hsl(221, 100%, 96%);
@@ -27,9 +26,9 @@ body {
     align-items: center;
     border-radius: 30px;
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px;
     flex-direction: column;
+    box-sizing: border-box
 }
 
 .tittleLeft{
@@ -60,14 +59,14 @@ body {
 }
 
 .leftSubtittle{
-    margin-top: 2rem;
+    margin-top: 1.8rem;
     font-size: 2rem;
     color: hsl(0, 0%, 100%);
 }
 
 .leftTextContainer{
     width: 100%;
-    padding: 0 3.8rem 0 3.8rem;
+    padding: 0 1.2rem 0 1.2rem;
     margin-top: 1rem;
     text-align: center;
 }
@@ -79,7 +78,64 @@ body {
 
 .rightContainer{
     display: flex;
+    flex-direction: column;
     flex: 1;
     border-radius: 0px 30px 30px 0px;
-   
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.tittleRight{
+    font-size: 1.5rem;
+    color: hsl(224, 30%, 27%);
+    margin-bottom: 1.8rem;
+}
+
+.reaction{
+    height: 3rem;
+    width: 100%;
+    background-color: hsl(0, 100%, 67%);
+    opacity: 0.1;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+
+.memory{
+    height: 3rem;
+    width: 100%;
+    background-color: hsl(39, 100%, 56%);
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    opacity: 0.1;
+}
+
+.verbal{
+    height: 3rem;
+    width: 100%;
+    background-color: hsl(166, 100%, 37%);
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    opacity: 0.1;
+}
+
+.visual{
+    height: 3rem;
+    width: 100%;
+    background-color: hsl(234, 85%, 45%);
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    opacity: 0.1;
+}
+
+.buttonContinue{
+    margin-top: 0.8rem;
+    height: 2.5rem;
+    border-radius: 35px;
+    border: none;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+}
+
+.buttonContinue:hover{
+    cursor: pointer;
 }
