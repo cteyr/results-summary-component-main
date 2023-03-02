@@ -22,7 +22,7 @@ body {
   
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .mainContainer{
         height: 100vh;
         width: 100vw;
@@ -42,7 +42,7 @@ body {
     box-sizing: border-box
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .leftContainer{
         border-radius: 0px 0px 30px 30px;
         padding: 3vh 4vh 3vh 4vh;
@@ -54,7 +54,7 @@ body {
     color: hsl(241, 100%, 89%);
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .tittleLeft{
         font-size: 2.5vh;
     }
@@ -72,7 +72,7 @@ body {
   
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .leftCircle{
         height: 20vh;
         width: 20vh;
@@ -85,7 +85,7 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .leftNumberTop{
         font-size: 8vh;
     }
@@ -101,13 +101,13 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .leftSubtittle{
         font-size: 3.2vh;
     }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .leftSubtittle{
         margin-top: 1.8vh;
     }
@@ -134,7 +134,7 @@ body {
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .rightContainer{
         flex: 2;
         border-radius: 0px 0px 0px 0px;
@@ -148,7 +148,7 @@ body {
     margin-bottom: 1.8rem;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .tittleRight{
         font-size: 2.5vh;
         margin-bottom: 2vh;
@@ -167,7 +167,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .reaction{
         margin-bottom: 2vh;
     }
@@ -190,7 +190,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .memory{
         margin-bottom: 2vh;
     }
@@ -213,7 +213,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .verbal{
         margin-bottom: 2vh;
     }
@@ -236,7 +236,7 @@ body {
     margin-bottom: 1.5rem;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 468px){
     .visual{
         margin-bottom: 2vh;
     }
@@ -254,6 +254,12 @@ body {
     border: none;
     background-color: hsl(224, 30%, 27%);
     color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 468px){
+    .buttonContinue{
+        margin-top: 1vh;
+    }
 }
 
 .leftDivCategory{
